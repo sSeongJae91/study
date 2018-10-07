@@ -2,14 +2,9 @@
 
 
 ## Algorithm
----
 ## Computer Science
----
 ## Database
----
 ## Java
----
 ## Python
----
 ## Kotlin
---
+
