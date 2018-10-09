@@ -4,7 +4,7 @@
 
 ## programmes
 * Hash
-⋅⋅⋅ Lv1_완주하지 못한 선수
+⋅⋅1 Lv1_완주하지 못한 선수
 * Stack/Queue
 * Heap
 * Sort
