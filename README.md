@@ -4,7 +4,7 @@
 ## [Algorithm](https://github.com/sSeongJae91/study/blob/master/Algorithm/algorithms.md)
 ## Computer Science
 ## Database
-## Java
+## [Java](https://github.com/sSeongJae91/study/blob/master/Java/java.md)
 ## Python
 ## Kotlin
 ## Git
