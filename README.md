@@ -8,5 +8,5 @@
 ## Python
 ## Kotlin
 ## Git
-## etc
+## [etc](https://github.com/sSeongJae91/study/blob/master/Term/term.md)
 
