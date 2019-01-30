@@ -13,7 +13,7 @@
    산술 연산자 | * / % + - << >>
    비교 연산자 | < > <= >= instanceof
    
-   First Header | Second Header
+First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
