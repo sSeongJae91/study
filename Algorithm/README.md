@@ -17,3 +17,5 @@
 * 연습문제
   - Lv1_같은 숫자는 싫어
   [https://gist.github.com/sSeongJae91/291f39d5188bd49bf31f9062c874e835]
+  - Lv1_직사각형 별 찍기
+  [https://gist.github.com/sSeongJae91/23e50a68578c1ca238e74c399189a424]
