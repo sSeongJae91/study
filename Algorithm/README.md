@@ -14,3 +14,6 @@
 * Dynamic Programming
 * DFS/BFS
 * 이분탐색
+* 연습문제
+  - Lv1_같은 숫자는 싫어
+  [https://gist.github.com/sSeongJae91/291f39d5188bd49bf31f9062c874e835]
