@@ -218,3 +218,16 @@ http://smilennv.blog.me/220453798336
    1. getInstance()메서드를 통해 객체를 static하게 가져오게 한다.
 
 이는 유일한 인스턴스를 만들기 위해 생긴 규약이다. 또 하나는 상속이 불가능함, private 생성자 때문에 둘다 인스턴스를 1개만 가지도록 하는 원칙을 지킴
+
+## Collection Framework
+- 데이터 군을 저장하는 클래스들을 표준화한 설계
+
+* List - 순서가 있는 데이터의 집합, 데이터의 중복을 허용한다.
+   - ex) ArrayList, LinkedList, Stack, Vector Queue
+* Set - 순서를 유지하지 않는 데이터의 집합, 데이터의 중복을 허용하지 않는다.
+* Map - 키(Key)와 값(Value)의 쌍으로 이루어진 데이터의 집합. 순서는 유지되지 않으며, 키는 중복을 허용하지 않고, 값은 중복을 허용한다.
+
+ArrayList, HashMap, Properties
+
+Arraylist(단방향)
+Iterator 패턴  : 안에 있는 데이터가 몇 개 인지 모르지만 모두 출력하고 싶을 때.
