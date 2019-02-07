@@ -49,6 +49,51 @@
 * 오버라이딩(overriding)
    - 상위 클래스에 존재하는 메소드를 하위 클래스에서 필요에 맞게 재정의하는 것을 의미한다. 부모클래스와 이름, 매개변수, 반환타입이 같아야하고 접근제어자는 조상클래스보다 좁은 범위로 변경할 수 없다.
    
+* 오버라이딩 예제
+```java
+class BindingTest3{
+ public static void main(String[] args) {
+  Parent p = new Child();
+  Child  c = new Child();
+ 
+  System.out.println("p.x = " + p.x);
+  p.method();
+  System.out.println();
+  System.out.println("c.x = " + c.x);
+  c.method();
+ }
+}
+ 
+class Parent {
+ int x = 100;
+ 
+ void method() {
+  System.out.println("Parent Method");
+ }
+}
+ 
+class Child extends Parent {
+ int x = 200;
+ 
+ void method() {
+  System.out.println("x=" + x);  // this.x와 같다.
+  System.out.println("super.x=" + super.x);
+  System.out.println("this.x="  + this.x);
+ }
+}
+
+출력 결과 : 
+
+p.x = 100
+x=200
+super.x=100
+this.x=200
+
+c.x = 200
+x=200
+super.x=100
+this.x=200
+```
 ### 생성자
 
 * 인스턴스 초기화할 목적으로 사용
@@ -60,3 +105,6 @@
 * 눈에 보인다 vs 눈에 보이지 않는다.
 * this();  -> 다른 생성자 호출
 * this() 키워드는 무조건 생성자 안에서 첫 번째에서만 사용이 가능하다.
+
+### 패키지
+* 서로 관련이 있는 클래스들의 묶음
