@@ -123,8 +123,9 @@ system.out.println();
 
 }
 ```
--> 생성자에서는 super나 this는 무조건 첫째줄에서 초기화 해줘야 한다. print문이 먼저 쓰일경우 에러
--> 하나의 생성자에는 this나 super 둘 중 쓰일 경우엔 하나만 쓸 수 있다. 하나의 생성자에 두 개의 명령어를 동시에 사용할 수 없다.
+#### 주의
+* 생성자에서는 super나 this는 무조건 첫째줄에서 초기화 해줘야 한다. print문이 먼저 쓰일경우 에러
+* 하나의 생성자에는 this나 super 둘 중 쓰일 경우엔 하나만 쓸 수 있다. 하나의 생성자에 두 개의 명령어를 동시에 사용할 수 없다.
 
 * 메모리의 4 원칙
    - 생주부주 : 생성된 주소는 부모의 주소를 가르킨다.
@@ -136,3 +137,43 @@ system.out.println();
    - 부타자참 : 부모의 타입으로 자식을 참조할 수 있다.
    - 부타자생 : 부모의 타입으로 자식 생성 가능
    - 부메자호 : 부모의 메서드로 자식의 메서드 호출 가능
+   
+### equals 메소드를 오버라이드 하는 모든 클래스에서 지켜야할 사항
+
+1. 반드시 hashCode메서드를 오버라이드 해야한다. 그렇지 않으면 object.hashCode 메서드의 규칙 위반
+1.애플리케이션 실행 중에 같은 객체에 대해 한 번 이상 호출되더라도 hashCode 메서드는 같은 정수를 일관성 있게 반환해야 한다.
+1.equals(Object)메서드의 호출 결과 두 객체가 동일하다면, 두 객체의 각각에 대해 hashCode메서드를 호출했을 때 같은 정수값이 나와야 한다.
+1.equals(Object) 메서드 호출 결과 두 객체가 다르다고 해서 두 객체 각각에 대해 hashCode 메서드를 호출 했을 때 반드시 다른 정수값이 나올 필요는 없다. (그러나 같지 않은 객체들에 대해 hashCode 메서드에서 서로 다른 정수 값을 반환하면 성능향상에 좋다.)
+
+```java
+@Override
+    public boolean equals(Object obj) {
+        // TODO Auto-generated method stub
+        Customer c = null;
+        boolean check = false;
+        
+        if(obj == null){
+            return false;
+        }
+        
+        if(obj instanceof Customer){
+            c = (Customer)obj;
+            
+            if(this.name.equals(c.name) && this.age == c.age){
+                return true;
+            }
+        }
+        return false;
+    }   
+    
+    @Override
+    public int hashCode() {
+        // TODO Auto-generated method stub
+        int hashCode = 100;
+        
+        hashCode = hashCode * 31 + age;
+        hashCode = hashCode * 31 + name.hashCode();
+        
+        return hashCode;
+    }
+```
