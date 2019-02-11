@@ -34,4 +34,4 @@
 * 단점 : 네이티브 앱과 마찬가지로 앱스토어/플레이스토어를 통해서 업데이트 해야하는 번거로움
 
 [참고/출처]
-http://www.kimdirector.co.kr/bbs/view.php?id=windowstip&no=235
+https://m.blog.naver.com/bluefish0121/221294408719
