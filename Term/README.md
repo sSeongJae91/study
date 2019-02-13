@@ -43,5 +43,13 @@ https://m.blog.naver.com/bluefish0121/221294408719
 http://www.smartskin.co.kr/marketing/management/list_5/management_05.pdf
 
 ## DevOps
+DevOps란 소프트웨어 개발팀과 IT팀이 더 빠르고 안정적으로 소프트웨어를 빌드, 테스트 및 릴리스할 수 있도록 두 팀 간의 프로세스를 자동화하는 일련의 과정입니다. DevOps의 개념은 지금까지 상대적으로 사일로된 환경에서 일해 온 팀 간에 협업 문화를 구축하는 것입니다. 이를 통해 깊은 신뢰감을 쌓고, 소프트웨어 릴리스 속도를 높이고, 크리티컬 이슈를 빠르게 해결하고, 미리 계획하지 않은 업무를 더 잘 관리할 수 있는 등의 혜택이 보장됩니다.
+
+DevOps는 최고의 소프트웨어 개발과 IT 운영을 결합한 합성어로, Atlassian에서 '브란젤리나'(Brad Pitt와 Angelina Jolie의 합성어) 다음으로 가장 유명한 단어입니다. 그리고 '브란젤리나'와 마찬가지로 DevOps도 배경 설명이 필요합니다. 
+
+본질적으로 DevOps는 문화이자 운동이며 철학입니다.
+DevOps는 사고방식의 변화, 협업 향상 및 긴밀한 통합을 강조하는, 개발팀 및 운영팀 간의 견고한 파트너십입니다. DevOps는 애자일, 지속적 배포, 자동화 등을 통합하며, 개발팀 및 운영팀이 더욱 효율적으로 작업하고 더 빠르게 혁신하며 기업과 고객을 대상으로 더 큰 가치를 제공할 수 있도록 돕습니다.
+
+References
 * https://aws.amazon.com/ko/devops/what-is-devops/
 * https://ko.atlassian.com/devops
