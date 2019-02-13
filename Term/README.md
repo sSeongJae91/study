@@ -41,3 +41,7 @@ https://m.blog.naver.com/bluefish0121/221294408719
 
 [참고/출처]
 http://www.smartskin.co.kr/marketing/management/list_5/management_05.pdf
+
+## DevOps
+* https://aws.amazon.com/ko/devops/what-is-devops/
+* https://ko.atlassian.com/devops
