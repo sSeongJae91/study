@@ -14,10 +14,10 @@ ES6 | 타입스크립트는 ES6의 상위집합.(이점 : 람다, 반복자, For
 기타 | * 동적 로딩 가능<br>* 비동기 템플릿 컴파일 가능<br>* 라우팅 단순화<br>* RxJS 사용 시 리액티브 프로그래밍 지원
 [Prototype table] 
 
-First Header | Second Header | Third Header | 
------------- | :-----------: | -----------: | 
-Content  |   *Long Cell*  || 
-Content  | **Cell** |   Cell | 
-New section |  More  |   Data | 
-And more  | With an escaped '\|'   || 
-[Prototype table] 
+
+| First Header  | Second Header | Third Header         |
+| :------------ | :-----------: | -------------------: |
+| First row     | Data          | Very long data entry |
+| Second row    | **Cell**      | *Cell*               |
+| Third row     | Cell that spans across two columns  ||
+[Table caption, works as a reference][section-mmd-tables-table1] 
