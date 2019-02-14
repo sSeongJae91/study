@@ -71,12 +71,12 @@ WAS역시 웹 서버로써 역할을 수행할 수 있기 때문에 둘을 잘 �
    자바스크립트는 ECMA의 표준을 따름. ES1부터 ES7 스크립트까지 진행.
    
    * ES1(ECMA-262Ed.1)
-   97년 js와 JScript가 동시에 나오자 ES1이 재정됨.
+      * 97년 js와 JScript가 동시에 나오자 ES1이 재정됨.
    * ES2
    * ES3
-   브라우저 지원 시작
+      * 브라우저 지원 시작
    * ES4
-   불완전한 표준으로, 사용하지 않기로 협의
+      * 불완전한 표준으로, 사용하지 않기로 협의
    * ES5
       * 현재 자바스크립트가 지원할 수 있는 표준
       * JSON/Accessors
@@ -85,4 +85,6 @@ WAS역시 웹 서버로써 역할을 수행할 수 있기 때문에 둘을 잘 �
       * Typescript의 기반이 되는 클래스 문법과 모듈 기능 추가
       * IE9 부터 지원
    * ES7
-   장식자(decorator)와 Async/Await 특징 추가
+      * 장식자(decorator)와 Async/Await 특징 추가
+      
+   ### Typescript 특징
