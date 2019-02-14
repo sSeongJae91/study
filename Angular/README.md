@@ -14,7 +14,6 @@ ES6 | 타입스크립트는 ES6의 상위집합.(이점 : 람다, 반복자, For
 기타 | * 동적 로딩 가능<br>* 비동기 템플릿 컴파일 가능<br>* 라우팅 단순화<br>* RxJS 사용 시 리액티브 프로그래밍 지원
 [Prototype table] 
 
-|    |   Grouping   || 
 First Header | Second Header | Third Header | 
 ------------ | :-----------: | -----------: | 
 Content  |   *Long Cell*  || 
