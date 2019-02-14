@@ -12,11 +12,3 @@
 ES6 | 타입스크립트는 ES6의 상위집합.(이점 : 람다, 반복자, For/Of루프, 파이썬 제너레이터, 리플렉션)
 의존성 주입 | 항상됨. 바인딩으로 기명 의존성 |
 기타 | * 동적 로딩 가능<br>* 비동기 템플릿 컴파일 가능<br>* 라우팅 단순화<br>* RxJS 사용 시 리액티브 프로그래밍 지원
-
-
-| First Header  | Second Header | Third Header         |
-| :------------ | :-----------: | -------------------: |
-| First row     | Data          | Very long data entry |
-| Second row    | **Cell**      | *Cell*               |
-| Third row     | Cell that spans across two columns  ||
-[Table caption, works as a reference][section-mmd-tables-table1] 
