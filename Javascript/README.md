@@ -144,7 +144,7 @@ http://blog.naver.com/pajamasi/220554189537
 * xml 문법 -> 내용을 알아보기 편하게(직관적) 만들어야 하는 경우
 * json 문법 -> 작성이 쉬운가? (글자를 적는게 빠른가)
 
-# JQuery
+## JQuery
 * jQuery -> css(selector) + javascript DOM
 * JQuery의 장점
     1. 코드의 양이 줄어든다. -> 가독성이 좋아진다.
@@ -161,7 +161,7 @@ http://blog.naver.com/pajamasi/220554189537
     1. 언제나 집합으로 작업
     1. 여러 동작을 한 줄에 작성 -> 임시변수 사용을 최소화하거나 불필요한 반복을 피함
     1. 모든 사람에게 무료로 제공한다.
-## Selector 표현식
+### Selector 표현식
 * $("img") : img 태그를 셀렉트함
 * $("li:nth-child(odd)")
 * $(".selclass:eq(0)")
