@@ -97,7 +97,7 @@ WAS역시 웹 서버로써 역할을 수행할 수 있기 때문에 둘을 잘 �
    * 타입 기반 언어
       * 타입스크립트 = 자바스크립트 + 타입
       * 컴파일 단계에서 타입 오류를 잡아낼 수 있고 코드 어시스트 기능도 지원받을 수 있음
-      * 암묵적 형변환, [호이스팅](https://github.com/sSeongJae91/study/tree/master/Javascript), 복잡성 문제 해결
+      * 암묵적 형변환, [호이스팅](https://github.com/sSeongJae91/study/tree/master/Javascript#hoisting), 복잡성 문제 해결
    * 변환 가능 언어
       * ECMA 표준을 따른다면 컴파일 도구를 이용해 새로운 언어로 마이그레이션할 수 있도록 지원
    
