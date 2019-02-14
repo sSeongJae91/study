@@ -223,3 +223,5 @@ var foo = function( ) {
 ```
 
 이 두번째 예제의 함수 표현은 함수 리터럴을 할당하는 구조이기 때문에 호이스팅 되지 않으며 그렇기 때문에 `Syntax Error`를 발생시킨다.
+
+출처 : https://github.com/JaeYeopHan/Interview_Question_for_Beginner/blob/master/JavaScript/README.md#javascript-event-loop
