@@ -53,3 +53,8 @@ DevOps는 사고방식의 변화, 협업 향상 및 긴밀한 통합을 강조�
 References
 * https://aws.amazon.com/ko/devops/what-is-devops/
 * https://ko.atlassian.com/devops
+
+## 학습 곡선(learning curve)
+학습 곡선은 특정 기술 또는 지식을 실제 필요한 업무와 같은 환경에서 효율적으로 사용(활용)하기 위해 드는 학습 비용(시간)을 의미하기도 하며 특정 기술을 습득할 때에 처음에는 학습 효과가 더디다가 어느 정도 이해를 하고 나면 빠르게 습득하고 후에는 다시 더뎌지는 곡선을 나타내기도 한다.
+
+![](/img/term1.png)
