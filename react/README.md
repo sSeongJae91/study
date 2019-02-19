@@ -1,4 +1,4 @@
-##React
+# React
 
 리액트는 Node JS와 함께 SSR(Server-Side Rendering)로 많이 사용된다. CSR은 SEO 하기가 불편하지만 SSR은 그런 문제가 없어서 토이프로젝트가 아니면 
 대부분 Node JS와 SSR(Next.js)을 선호하는 추세이다.
