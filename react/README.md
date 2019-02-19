@@ -18,6 +18,6 @@
 ## React vs React Native
 
 * React
-  - 사용자 인터페이스(UI)를 만들기 위한 자바스크립트(JavaScript)라이브러리
+  - 사용자 인터페이스(UI)를 만들기 위한 자바스크립트(JavaScript)라이브러리로서 구조가 MVC, MVW(Model-View Whatever)등인 프레임워크와 달리 오직V(View)만 신경쓰는 
 * React Native
   - 리액트 네이티브는 네이티브 모바일 앱을 만들 수 있게 도와주는 라이브러리로서 Objective-C, Java 또는 Swift를 사용하여 만든 앱과 구별 할 수없는 실제 모바일 앱을 만들 수 있다.  React Native는 일반 iOS 및 Android 앱과 동일한 기본 UI 빌딩 블록을 사용한다. JavaScript와 React를 사용하여 이러한 빌딩 블록을 함께 모으는 것이다. (React Native는 자바스크립트 코드와 네이티브 코드를 별도의 스레드로 분리하여 둘 사이의 통신을 비동기식으로 만들어 느려지는 현상이 없다)
