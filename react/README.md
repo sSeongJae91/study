@@ -5,6 +5,14 @@
 특히 소규모 스타트업같이 인력이 부족한 회사들도 JS로 React-NodeJS-React Native-MongoDB 스택을 사용하는 사람들도 많다.
 다만 개발할때 SSR을 염두에 두고 개발해야 한다.
 
+리액트의 주요 특징 중 하나는 Virtual DOM을 사용하는 것이다. Virtual DOM을 사용하면 실제 DOM에 접근하여 조작하는 대신, 이를 추상화한 자바스크립트 객체를 구성하여 사용한다.
+
+리액트에서 데이터가 변하여 웹 브라우저에 실제 DOM을 업데이트할 때는 다음 세 가지 절차를 밟는다.
+1. 데이터를 업데이트하면 전체 UI를 Virtual DOM에 렌더링한다.
+1. 이전 Virtual DOM에 있던 내용과 현재 내용을 비교한다.
+1. 바뀐 부분만 실제 DOM에 적용한다.
+
+
 * 서버사이드 렌더링이란?
   - http://webframeworks.kr/tutorials/react/server-side-rendering/
 
