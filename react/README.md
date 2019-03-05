@@ -22,6 +22,48 @@
 * Next.js - 서버 사이드 렌더링 프레임워크
   - https://blog.kesuskim.com/2017/06/next-js-react-server-side-rendering-framework/
 
+## why React??
+React는 다음 3가지의 중요한 특징을 지니고 있습니다. 이 요소들은 분리된 것이 아니라 서로 연결되면서 React를 지탱합니다.
+###Component
+Component는 UI를 구성하는 개별적인 뷰 단위입니다. React로 개발을 한다는 것은 마치 블럭을 조립해 성을 만드는 것과 같습니다. 전체 앱은 각 Component들이 결합해서 만들어 지게 되죠. 무엇보다 각 Component들은 앱의 다른 부분, 또는 다른 앱에서 쉽게 재사용이 가능합니다. Redux의 창시자이며, 현재는 Facebook React Core팀의 일원인 Dan Abramov는 React의 목표가 성능보다는 유지가능한 앱을 만드는 것에 있다고 설명한적이 있습니다.
+
+####JSX
+JSX는 React를 위해 태어난 새로운 자바스크립트 문법으로, 과거 페이스북이 만들었던 PHP의 개량판 XHP에 그 기원을 두고 있습니다. (참조)React.js Conf 2015 Keynote
+```
+class HelloMessage extends React.Component {
+  render() {
+    return <div>Hello {this.props.name}</div>;
+  }
+}
+ReactDOM.render(<HelloMessage name="John" />, mountNode)
+```
+이 코드는 “Hello, John”라는 div를 생성하는 컴포넌트입니다. ES6를 공부하신 분들이라면, class를 이용한 method 상속 패턴 자체에는 익숙하실 겁니다. 그러나 아마 React를 처음 접하신 분들에게는 낯선 곳이 두군데 있습니다. 바로 render 함수의 return 값과 ReactDOM.render함수의 첫번째 argument죠. 뭔가 html처럼 보이긴 하는데 스트링으로 감싸진 것도 아닌 정체불명의 녀석들입니다.
+
+React는 작성한 코드를 컴파일하는 과정을 꼭 거쳐야 합니다. 대부분 사실상 자바스크립트 표준이 되어가고 있는 Babel을 사용하죠. Babel의 React 플러그인을 통해 위의 코드를 컴파일하면 다음과 같은 모습이 됩니다.
+
+```
+class HelloMessage extends React.Component {
+  render() {
+    return React.createElement(
+      "div",
+      null,
+      "Hello ",
+      this.props.name
+    );
+  }
+}
+```
+ReactDOM.render(React.createElement(HelloMessage, { name: "John" }), mountNode);
+이제 그냥 보통 자바스크립트 코드가 되었죠? React는 Babel과 같은 트랜스파일러를 꼭 써야하기 때문에 Webpack 등을 통한 꽤 까다로운 초기 세팅이 필수적입니다. 그렇다면 왜 굳이 이런 번거로움을 들여가며, JSX를 사용하는 것일까요?
+
+물론 JSX를 사용하지 않고 바로 위의 코드처럼 직접 순수한 자바스크립트 코드를 작성하여 React를 사용할 수도 있습니다. 그러나 실제로 그렇게 사용하는 경우는 거의 없을 뿐 아니라, React를 사용하는 중요한 이유 중 하나를 포기하는 셈이 되죠.
+
+JSX는 보통 선언적이라고 번역되는, Declarative한 개발을 도와주는 도구입니다. 간단하게 말해 한눈에 이해하기 쉬운 개발을 만들어 줍니다. JSX는 그 형태가 마치 html과 같습니다. 유저에게 보여주고 싶은 최종적인 View라고 할 수 있죠. 개발자는 JSX를 통해 결과물에 직관적으로 도달할 수 있습니다. 이는 예측가능한 개발을 만들어줄 뿐 아니라 유지보수, 협업 등에서도 엄청난 강점을 발휘합니다.
+
+###Vitual DOM
+결국 위의 모든 것을 가능하게 만들어주는 것, 그리고 React의 가장 큰 특징이자 뜨거운 논쟁을 불러일으키는 대상, 그것이 바로 Virtual DOM입니다.
+
+DOM은 웹 개발자들의 영원한 숙제입니다. DOM은 웹의 핵심으로써, 브라우저가 화면을 그리기 위한 정보가 담겨있는 문서입니다. 웹은 원래 인터넷을 통해 공유되는 문서의 규격으로써 탄생했죠. 문제는 이 DOM을 효과적으로 다루는 것이 꽤나 힘들다는 것입니다. 그래서 DOM이 성능이 좋지 않다느니 하는 말도 나오지만 사실 DOM 자체보다는 해석 과정에 문제가 있는 경우가 대부분입니다. 브라우저별로 이 DOM을 가지고 화면을 만드는 방식이 다르기도 하구요.
 
 ## React vs React Native
 
