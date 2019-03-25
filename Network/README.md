@@ -54,7 +54,7 @@ SOAP은 HTTP, HTTPS, SMTP등을 사용하여 XML 기반의 메시지를 컴퓨�
 
 https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
 
-## Rest
+### Rest
 
 REST ( Representational State Transfer )
 REST는 월드 와이드 웹과 같은 분산 하이퍼미디어 시스템을 위한 소프트웨어 아키텍처의 한 형식으로, 로이 필딩(Roy Fielding)의 2000년 박사학위 논문에서 소개되었다. 발표 당시는 대규모의 네트워크 시스템을 위한 방법이라는 뜻이었지만 최근 이용되고 있는 REST는 HTTP와 XML을 이용하여 데이터를 주고 받는 웹 서비스를 이용하는 것으로 쓰이고 있다. url을 통해 요청하며 xml로 반환된다.
