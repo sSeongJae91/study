@@ -50,7 +50,9 @@ SOAP은 HTTP, HTTPS, SMTP등을 사용하여 XML 기반의 메시지를 컴퓨�
 ### soap의 장점
 1. XML 포맷의 형태로 보내기 때문에 다른 기술과 비교해서 상대적으로 느리다. (최근 네트워크 속도의 비약적인 발전과 성능 최적화 기술의 발전으로 많은 부분이 해결되고 있다.)
 
+## Rest/Rest Api/Restful
 
+https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
 
 
 
