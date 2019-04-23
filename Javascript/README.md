@@ -2,6 +2,9 @@ jsp, asp, php, .. -> 서버 스크립트
 <br>
 html 등 스크립트 코드 -> 클라이언트 스크립트
 
+## javascript DOM & BOM
+https://jayzzz.tistory.com/64
+
 ## 연관배열
 ```javascript
 <%@ page language="java" contentType="text/html; charset=UTF-8"
