@@ -263,6 +263,18 @@ Default, Rest 파라미터
 클래스 이 외에도 추가된점이 너무 많아서 이부분에서 사람들이 진입장벽을 느끼는 것 같다. 브라우저(특히 MS 계열)에서 지원해주지 않는 경우가 많아 바벨(Babel)이라는 트랜스파일러를 써야하는데 이 바벨은 웹브라우저가 아닌 Node.js 위에서 돌아가고… Node.js를 설치하려면 NPM을 알아야하고… 또 모듈화를 사용하려면 웹팩(WebPack)같은 모듈 번들러를 알아야하고…
 이런 다양한 장벽 때문에 사람들이 ES2015를 쉽게 접근하지 못하는 경향이 있는 것 같다. 하지만 우리는 언제나처럼 도전할 것이다!
 
+* 기본 매개 변수 (Default Parameters)
+* 템플릿 리터럴 (Template Literals)
+* 멀티 라인 문자열 (Multi-line Strings)
+* 비구조화 할당 (Destructuring Assignment)
+* 향상된 객체 리터럴 (Enhanced Object Literals)
+* 화살표 함수 (Arrow Functions)
+* Promises
+* 블록 범위 생성자 Let 및 Const (Block-Scoped Constructs Let and Const)
+* 클래스 (Classes)
+* 모듈 (Modules)
+참조 : https://blog.asamaru.net/2017/08/14/top-10-es6-features/
+
 ### ES7 (ES2016)
 이번에는 다행히? ES2015때처럼 큰 변화는 없었다. 비교하자면 ES2015의 1/10 정도도 안되는 분량? 휴.. 다행이다.
 
