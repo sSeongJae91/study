@@ -24,6 +24,8 @@ Spring의 용도는 동적인 웹 사이트 개발을 위한 것입니다.
 
 * [spring-mvc-architecture](#spring-mvc-architecture)
 
+* [@Controller vs @restController](#@Controller vs @restController)
+
   </br>  
 
 
@@ -498,3 +500,4 @@ public class MainClass {
 
 
 
+### @Controller vs @restController
