@@ -3,7 +3,7 @@ jsp, asp, php, .. -> 서버 스크립트
 html 등 스크립트 코드 -> 클라이언트 스크립트
 
 
-* [javascript DOM & BOM](#javascript DOM & BOM)
+* [javascript DOM & BOM](#javascript-DOM-&-BOM)
 
 * [연관배열](#연관배열)
 
@@ -20,6 +20,8 @@ html 등 스크립트 코드 -> 클라이언트 스크립트
 * [Hoisting](#Hoisting)
 
 * [ECMAScript란?](#ECMAScript란?)
+
+* [GUID(UUID)](#GUID)
 
 
 
@@ -315,3 +317,26 @@ await
 매개변수 마지막에 콤마를 붙이는걸 허용
 
 [https://luckydavekim.github.io/web/2018/02/07/what-is-the-ecmascript/]
+
+
+## GUID
+
+전역 고유 식별자(Globally Unique Identifier, GUID)는 응용 소프트웨어에서 사용되는 유사 난수이다. GUID는 생성할 때 항상 유일한 값이 만들어진다는 보장은 없지만, 사용할 수 있는 모든 값의 수가 2128 = 3.4028×1038개로 매우 크기 때문에, 적절한 알고리즘이 있다면 같은 숫자를 두 번 생성할 가능성은 매우 적다.
+
+```js
+<script>
+  function guid() {
+    function s4() {
+      return ((1 + Math.random()) * 0x10000 | 0).toString(16).substring(1);
+    }
+    return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
+  }
+
+  function show_uuid() {
+    document.getElementById('uuid').value = guid();
+  }
+
+</script>
+<button onclick='show_uuid()'>생성</button>
+<input type='text' size='40' id='uuid' />
+```
