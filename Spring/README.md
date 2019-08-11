@@ -526,3 +526,7 @@ Spring 4 버전이후로 출시
 @Controller와 @ResponseBody를 @RestController가 가지고 있기 때문에 데이터 중심의 구현
 
 작동 방식은 @ResponseBody와 동일
+
+출처 : [https://doublesprogramming.tistory.com/105], [https://yhmane.tistory.com/78]
+
+[위로](#spring-framework)
