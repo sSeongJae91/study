@@ -300,7 +300,7 @@ public class MyTest {
 
 [위로](#spring-framework)
 
-### XML 기반의 POJO (Plain Old Java Object) 클래스로 AOP 구현방법
+## XML 기반의 POJO (Plain Old Java Object) 클래스로 AOP 구현방법
 
 먼저 Aspect로 사용할 클래스를 만듭니다.
 
@@ -369,7 +369,7 @@ public class TimeAspect { // aspect 의존성이 있어야 합니다.
 
 
 
-### @Aspect Annotation을 이용한 AOP 구현
+## @Aspect Annotation을 이용한 AOP 구현
 
 
 
@@ -458,7 +458,7 @@ public class MainClass {
 
 [위로](#spring-framework)
 
-### Mybatis
+## Mybatis
 
 `Mybatis`란, 객체 지향 언어인 자바의 관계형 DataBase Programming을 좀 더 쉽게 할 수 있는 개발 Framework
 
@@ -466,7 +466,7 @@ public class MainClass {
 
 
 
-### Spring MVC Architecture 
+## Spring MVC Architecture 
 
 * 스프링이 사용자에게 전달되는 전체적인 구조 설명입니다.
 
