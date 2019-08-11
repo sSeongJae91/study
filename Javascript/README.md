@@ -9,11 +9,11 @@ html 등 스크립트 코드 -> 클라이언트 스크립트
 
 * [익명함수](#익명함수)
 
-* [javascript DOM](#javascript DOM)
+* [javascript DOM](#javascript-DOM)
 
 * [EVENT](#EVENT)
 
-* [JSON](#JSON(Javascript Object Notation))
+* [JSON](#JSON(Javascript-Object-Notation))
 
 * [JQuery](#JQuery)
 
