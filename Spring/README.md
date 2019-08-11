@@ -500,4 +500,29 @@ public class MainClass {
 
 
 
-### @Controller vs @RestController
+## @Controller vs @RestController
+
+### @Controller
+
+1. Client가 URI 요청을 보냄
+2. DispatcherServlet과 Handler Mapping이 요청을 Intercept
+3. Controller에 의해 요청을 처리 하고 DispatcherServlet이 Model과 View를 적절히 Client에 리턴
+
+### @ResponseBody
+
+Spring3 버전 이후로 출시
+
+자바 객체를 HTTP 요청의 body 내용으로 매핑하는 역할을 함
+
+1. 2 방식은  @Controller와 같다
+1. 여기에서는 View를 거치지 않고 Controller에서 직접 데이터를 리턴
+
+### @RestController
+
+@RestController = @Controller + @ResponseBody 
+
+Spring 4 버전이후로 출시
+
+@Controller와 @ResponseBody를 @RestController가 가지고 있기 때문에 데이터 중심의 구현
+
+작동 방식은 @ResponseBody와 동일
