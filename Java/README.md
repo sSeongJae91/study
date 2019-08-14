@@ -233,3 +233,16 @@ ArrayList, HashMap, Properties
 
 Arraylist(단방향)
 Iterator 패턴  : 안에 있는 데이터가 몇 개 인지 모르지만 모두 출력하고 싶을 때.
+
+
+## Java SE, JDK, JRE
+
+- Java SE(Java Platform, Standard Edition)는 자바의 표준안이다. 자바라는 언어가 어떠한 문법적인 구성을 가졌는지와 같은 것들을 정의하고 있다. 이것은 구체적인 소프트웨어가 아니고 그 소프트웨어의 설계도라고 할 수 있다. 소프트웨어에서는 설계도라는 표현 대신에 명세서(spec, specification)이라는 말을 사용한다. 이 명세서에 따라서 Java가 만들어지게 된다. Java SE 7은 버전 7에 대한 명세서이다. 자바는 계속 진화하고 있는 기술이다. 이 명세서는 JCP(Java Community Process, http://jcp.org)라는 조직을 통해서 만들어진다.
+
+- JDK(Java Development Kit)는 Java SE의 표준안에 따라서 만들어진 구체적인 소프트웨어다. Java 개발자라면 JDK를 다운받아서 설치해야 한다. 여기에는 Java 프로그램을 실행하면 Java 코드를 컴파일하는 컴파일러와 개발에 필요한 각종 도구 그리고 JRE가 포함되어 있다. 즉 개발자를 위한 자바 버전이다.
+
+- JRE(Java Runtime Environment)는 자바가 실제로 동작하는 데 필요한 JVM, 라이브러리, 각종 파일들이 포함되어 있다. 자바로 만들어진 프로그램을 구동하려고 한다면 이것을 설치한다. 일반인을 위한 자바 버전이라고 할 수 있다.
+
+- JVM(Java Virtual Machine) JVM은 자바가 실제도 구동하는 환경이다. 자바로 만들어진 소프트웨어는 JVM이라는 가상화된 환경에서 구동되고, 하드웨어나 운영체제에 따라서 달라질 수 있는 호환성의 문제는 운영체제 버전에 따라서 만들어진 JVM이 알아서 해결한다. 즉 하나의 자바 프로그램을 만들면 어떤 환경에서도 실행할 수 있는 것이 바로 JVM의 역할이라고 할 수 있다.
+
+출처: https://devbox.tistory.com/entry/실행 [장인개발자를 꿈꾸는 :: 기록하는 공간]
