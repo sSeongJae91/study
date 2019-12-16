@@ -21,6 +21,9 @@
   [https://gist.github.com/sSeongJae91/23e50a68578c1ca238e74c399189a424]
   - Lv1_자릿수 더하기
   [https://gist.github.com/sSeongJae91/c68cfc5da9d1f96062cb070ed257252e]
+
+## leetcode
+1. TwoSum - [answer](https://gist.github.com/sSeongJae91/777ce54b6636fe0ef9bfc303ff84812a)
   
 ## SORT
 ### insertion sort
