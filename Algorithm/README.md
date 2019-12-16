@@ -24,7 +24,8 @@
 
 ## leetcode
 1. TwoSum(#Array, #Hash Table) - [answer](https://gist.github.com/sSeongJae91/777ce54b6636fe0ef9bfc303ff84812a)
-3. Longest Substring Without Repeating Characters - [answer](https://gist.github.com/sSeongJae91/4180eb263ebdd5501db9a196e83faad8)
+1.
+1. Longest Substring Without Repeating Characters - [answer](https://gist.github.com/sSeongJae91/4180eb263ebdd5501db9a196e83faad8)
 ## SORT
 ### insertion sort
 ### selection sort
