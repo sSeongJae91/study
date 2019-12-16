@@ -23,7 +23,7 @@
   [https://gist.github.com/sSeongJae91/c68cfc5da9d1f96062cb070ed257252e]
 
 ## leetcode
-1. TwoSum - [answer](https://gist.github.com/sSeongJae91/777ce54b6636fe0ef9bfc303ff84812a)
+1. TwoSum(#Array, #Hash Table) - [answer](https://gist.github.com/sSeongJae91/777ce54b6636fe0ef9bfc303ff84812a)
   
 ## SORT
 ### insertion sort
