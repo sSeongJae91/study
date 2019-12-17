@@ -26,6 +26,9 @@
 1. TwoSum(#Array, #Hash Table) - [answer](https://gist.github.com/sSeongJae91/777ce54b6636fe0ef9bfc303ff84812a)
 1.
 1. Longest Substring Without Repeating Characters - [answer](https://gist.github.com/sSeongJae91/4180eb263ebdd5501db9a196e83faad8)
+1.
+1.
+1. ZigZag Conversion - [answer](https://gist.github.com/sSeongJae91/85ee012d5ba72f3c5868f248eb447715)
 ## SORT
 ### insertion sort
 ### selection sort
