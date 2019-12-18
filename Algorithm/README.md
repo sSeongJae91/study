@@ -29,6 +29,7 @@
 1.
 1.
 1. ZigZag Conversion - [answer](https://gist.github.com/sSeongJae91/85ee012d5ba72f3c5868f248eb447715)
+1. Reverse Integer - [answer](https://gist.github.com/sSeongJae91/fc43d416f49a85ab37719c7fef7de28f)
 ## SORT
 ### insertion sort
 ### selection sort
