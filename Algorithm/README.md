@@ -27,7 +27,7 @@
 1.
 1. Longest Substring Without Repeating Characters - [answer](https://gist.github.com/sSeongJae91/4180eb263ebdd5501db9a196e83faad8)
 1. HARD
-1.
+1. Longest Palindromic Substring*** - [answer](https://gist.github.com/sSeongJae91/e5a4137da7eae00e329f134dc8655726)
 1. ZigZag Conversion - [answer](https://gist.github.com/sSeongJae91/85ee012d5ba72f3c5868f248eb447715)
 1. Reverse Integer - [answer](https://gist.github.com/sSeongJae91/fc43d416f49a85ab37719c7fef7de28f)
 1. String to Integer (atoi) - [answer](https://gist.github.com/sSeongJae91/339afe1712df2ade024fd0b2760b0ee9)
