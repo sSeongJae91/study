@@ -37,6 +37,8 @@
 1. Integer to Roman - [answer](https://gist.github.com/sSeongJae91/d8e8925c23d8598c93ef45ee4e7ebe39)
 1. Roman to Integer - [answer](https://gist.github.com/sSeongJae91/50f4f92480d8a8849f2a81214a43ce06)
 1. Longest Common Prefix - [answer](https://gist.github.com/sSeongJae91/11c640a1d4054f1243e46fd871cd7dce)
+1.
+1. 3Sum Closest - [answer](https://gist.github.com/sSeongJae91/09b17c9a1870a95faf1306451df401bb)
 ## SORT
 ### insertion sort
 ### selection sort
