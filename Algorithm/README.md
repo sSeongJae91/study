@@ -39,6 +39,7 @@
 1. Longest Common Prefix - [answer](https://gist.github.com/sSeongJae91/11c640a1d4054f1243e46fd871cd7dce)
 1.
 1. 3Sum Closest - [answer](https://gist.github.com/sSeongJae91/09b17c9a1870a95faf1306451df401bb)
+1. Letter Combinations of a Phone Number - [answer](https://gist.github.com/sSeongJae91/f9e1e1273eb3ab02b74c1141f37ae825)
 ## SORT
 ### insertion sort
 ### selection sort
