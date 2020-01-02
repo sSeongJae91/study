@@ -40,6 +40,7 @@
 1.
 1. 3Sum Closest - [answer](https://gist.github.com/sSeongJae91/09b17c9a1870a95faf1306451df401bb)
 1. Letter Combinations of a Phone Number - [answer](https://gist.github.com/sSeongJae91/f9e1e1273eb3ab02b74c1141f37ae825)
+1. 4Sum - [answer](https://gist.github.com/sSeongJae91/bd0e519aafe88a7c6fe705f1885c404a)
 ## SORT
 ### insertion sort
 ### selection sort
