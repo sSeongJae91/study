@@ -42,6 +42,8 @@
 1. Letter Combinations of a Phone Number - [answer](https://gist.github.com/sSeongJae91/f9e1e1273eb3ab02b74c1141f37ae825)
 1. 4Sum - [answer](https://gist.github.com/sSeongJae91/bd0e519aafe88a7c6fe705f1885c404a)
 1. Remove Nth Node From End of List - [answer](https://gist.github.com/sSeongJae91/e395752ffaf5c811ebd65415d9704452)
+1. Valid Parentheses - [answer](https://gist.github.com/sSeongJae91/d7735f4e8fd8a8ec107d4bd9c9d302bb)
+
 ## SORT
 ### insertion sort
 ### selection sort
