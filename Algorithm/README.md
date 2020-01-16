@@ -43,7 +43,8 @@
 1. 4Sum - [answer](https://gist.github.com/sSeongJae91/bd0e519aafe88a7c6fe705f1885c404a)
 1. Remove Nth Node From End of List - [answer](https://gist.github.com/sSeongJae91/e395752ffaf5c811ebd65415d9704452)
 1. Valid Parentheses - [answer](https://gist.github.com/sSeongJae91/d7735f4e8fd8a8ec107d4bd9c9d302bb)
-1.Merge Two Sorted Lists - [answer](https://gist.github.com/sSeongJae91/b7809c457d6f3053c41e8af67a4e8956)
+1. Merge Two Sorted Lists - [answer](https://gist.github.com/sSeongJae91/b7809c457d6f3053c41e8af67a4e8956)
+
 ## SORT
 ### insertion sort
 ### selection sort
