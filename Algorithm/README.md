@@ -45,6 +45,8 @@
 1. Valid Parentheses - [answer](https://gist.github.com/sSeongJae91/d7735f4e8fd8a8ec107d4bd9c9d302bb)
 1. Merge Two Sorted Lists - [answer](https://gist.github.com/sSeongJae91/b7809c457d6f3053c41e8af67a4e8956)
 1. Generate Parentheses - [answer](https://gist.github.com/sSeongJae91/982865ce30e019731915f742c31525b8)
+1. Swap Nodes in Pairs = [answer]()
+1. Remove Duplicates from Sorted Array - [answer](https://gist.github.com/sSeongJae91/8861a67a4a91eec56d52a74f48dfd936)
 
 ## SORT
 ### insertion sort
