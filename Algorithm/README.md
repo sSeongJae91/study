@@ -50,6 +50,10 @@
 1. Remove Element - [answer](https://gist.github.com/sSeongJae91/3b8add6b52ec379466ccf554146a40d3)
 1. Implement strStr() - [answer](https://gist.github.com/sSeongJae91/9d30e2aeffba2878d97eafdc8736f0f4)
 1. Divide Two Integers - [answer](https://gist.github.com/sSeongJae91/d521e009695dcb8d832bc5bd1be35ed8)
+1. Hard
+1.
+1. Hard
+1. Search in Rotated Sorted Array - [answer](https://gist.github.com/sSeongJae91/c630d0a484fc536cfa2d71330797e4d2)
 
 ## SORT
 ### insertion sort
