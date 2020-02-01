@@ -56,6 +56,7 @@
 1.
 1. Hard
 1. Search in Rotated Sorted Array - [answer](https://gist.github.com/sSeongJae91/c630d0a484fc536cfa2d71330797e4d2)
+1. Find First and Last Position of Element in Sorted Array - [answer](https://gist.github.com/sSeongJae91/d5bf1a6c93cbdc0701446393f9aaca74)
 
 ## SORT
 ### insertion sort
