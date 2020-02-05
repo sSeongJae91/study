@@ -59,6 +59,8 @@
 1. Find First and Last Position of Element in Sorted Array - [answer](https://gist.github.com/sSeongJae91/d5bf1a6c93cbdc0701446393f9aaca74)
 1. Search Insert Position - [answer](https://gist.github.com/sSeongJae91/ab7d355611dd31c2f5493fb3ace6ec50)
 1. Valid Sudoku - [answer](https://gist.github.com/sSeongJae91/301c896842e34ea820435094a8068689)
+1. 
+1. Count and Say - [answer](https://gist.github.com/sSeongJae91/35724b1facd13946c29e7d5172b4ac3e)
 
 ## SORT
 ### insertion sort
