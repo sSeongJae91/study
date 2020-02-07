@@ -61,6 +61,14 @@
 1. Valid Sudoku - [answer](https://gist.github.com/sSeongJae91/301c896842e34ea820435094a8068689)
 1. 
 1. Count and Say - [answer](https://gist.github.com/sSeongJae91/35724b1facd13946c29e7d5172b4ac3e)
+1. Combination Sum
+1. Combination Sum II
+1. Hard
+1. Hard
+1. Multiply Strings
+1. Hard
+1. Hard
+1. Permutations - [answer](https://gist.github.com/sSeongJae91/ed5435092a081a9946e6d87a9ae41726)
 
 ## SORT
 ### insertion sort
