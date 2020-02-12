@@ -69,6 +69,7 @@
 1. Hard
 1. Hard
 1. Permutations - [answer](https://gist.github.com/sSeongJae91/ed5435092a081a9946e6d87a9ae41726)
+1. Permutations II - [answer](https://gist.github.com/sSeongJae91/27b0882e70569b4883ae32a9b273b902)
 
 ## SORT
 ### insertion sort
