@@ -9,7 +9,7 @@
 ## [JSP](https://github.com/sSeongJae91/study/blob/master/JSP/README.md)
 ## [Network](https://github.com/sSeongJae91/study/blob/master/Network/README.md)
 ## [Java](https://github.com/sSeongJae91/study/blob/master/Java/README.md)
-## [Javascript](https://github.com/sSeongJae91/study/blob/master/javascript/README.md)
+## [Javascript](https://github.com/sSeongJae91/study/blob/master/Javascript/README.md)
 ## [Spring](https://github.com/sSeongJae91/study/blob/master/Spring/README.md)
 ## Python
 ## [Term](https://github.com/sSeongJae91/study/blob/master/Term/README.md)
