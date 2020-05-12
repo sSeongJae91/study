@@ -179,8 +179,10 @@ EX)
 ▷ 파일 전송 프로토콜(File Transfer Protocol)
 - Telnet : port(23)
 - HTTP : port(80)
-▷ 하이퍼 텍스트 전송 프로토콜(Hyper Text Transfer Protocol)
-▷ 인터넷에서 하이퍼 텍스트 문서를 교환하기 위해 사용되는 프로토콜
+ ▷ 하이퍼 텍스트 전송 프로토콜(Hyper Text Transfer Protocol)
+ ▷ 인터넷에서 하이퍼 텍스트 문서를 교환하기 위해 사용되는 프로토콜
+- HTTPS : port(443)
+- 톰캣은 주로 8080, 8443을 사용하므로 보통 80, 443으로 redirection
 [https://tigerpoo11.tistory.com/34]
 
 
