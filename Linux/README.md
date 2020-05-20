@@ -9,3 +9,9 @@
 - 실행 ( x ) : 파일의 실행권한
 
 r = 4, w = 2, x = 1
+
+
+## 기타 리눅스 명령어
+
+ex) sudo chown seongjaejeong man7
+    => man7이라는 dir의 권한을 seongjaejeong로 바꿈(ex) root -> seongjaejeong)
