@@ -530,3 +530,11 @@ Spring 4 버전이후로 출시
 출처 : [https://doublesprogramming.tistory.com/105], [https://yhmane.tistory.com/78]
 
 [위로](#spring-framework)
+
+## Springboot 초기 세팅
+
+### DevTools
+
+## Lombok
+
+## Thymeleaf
