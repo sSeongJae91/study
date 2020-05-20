@@ -535,6 +535,6 @@ Spring 4 버전이후로 출시
 
 ### DevTools
 
-## Lombok
+### Lombok
 
-## Thymeleaf
+### Thymeleaf
