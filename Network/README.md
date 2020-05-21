@@ -70,6 +70,13 @@ https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
 REST ( Representational State Transfer )
 REST는 월드 와이드 웹과 같은 분산 하이퍼미디어 시스템을 위한 소프트웨어 아키텍처의 한 형식으로, 로이 필딩(Roy Fielding)의 2000년 박사학위 논문에서 소개되었다. 발표 당시는 대규모의 네트워크 시스템을 위한 방법이라는 뜻이었지만 최근 이용되고 있는 REST는 HTTP와 XML을 이용하여 데이터를 주고 받는 웹 서비스를 이용하는 것으로 쓰이고 있다. url을 통해 요청하며 xml로 반환된다.
 
+### Api
+
+API는 어떤 서버의 특정한 부분에 접속해서 그 안에 있는 데이터와 서비스를 이용할 수 있게 해주는 소프트웨어 도구이다. API를 이용하면 두 개의 소프트웨어가 서로 통신을 주고받을 수 있으며, 이는 우리가 모바일을 이용해서 하는 모든 행동들의 기반을 이루고 있다고 할 수 있습니다. API가 있음으로써 IT 아키텍처가 간단하게 만들어질 수 있고, 마케팅에 힘을 실어주며, 데이터 공유를 더 쉽게 해준다.
+
+### Soap vs rest
+[http://blog.wishket.com/soap-api-vs-rest-api-%EB%91%90-%EB%B0%A9%EC%8B%9D%EC%9D%98-%EA%B0%80%EC%9E%A5-%ED%81%B0-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80/]
+
 ## FTP vs SFTP
 
 ### FTP(File Transfer Protocol)
