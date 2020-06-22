@@ -301,6 +301,7 @@ Default, Rest 파라미터
 * 모듈 (Modules)
 
 참조 : https://blog.asamaru.net/2017/08/14/top-10-es6-features/
+듀토리얼 : https://www.w3schools.com/js/js_es6.asp
 
 ### ES7 (ES2016)
 이번에는 다행히? ES2015때처럼 큰 변화는 없었다. 비교하자면 ES2015의 1/10 정도도 안되는 분량? 휴.. 다행이다.
