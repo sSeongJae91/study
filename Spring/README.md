@@ -536,5 +536,5 @@ Spring 4 버전이후로 출시
 ### DevTools
 
 ### Lombok
-
+- Lombok 라이브러리는 Java 코드를 컴파일 할 때 자동으로 메소드를 추가해서 컴파일해주는 라이브러리라고 할 수 있다. Java개발자에게 Getter/Setter 메소드나 toString(), 생성자 등의 반복적인 작업에서 생산성을 높이기 위한 라이브러리로 약간의 어노테이션을 추가하기만 하면 된다.
 ### Thymeleaf
