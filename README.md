@@ -16,5 +16,4 @@
 ## Kotlin
 ## Git
 ## [Linux](https://github.com/sSeongJae91/study/blob/master/Linux/README.md)
-## [etc](https://github.com/sSeongJae91/study/blob/master/Term/README.md)
 
