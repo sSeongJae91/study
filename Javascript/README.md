@@ -1,7 +1,7 @@
 jsp, asp, php, .. -> 서버 스크립트
 <br>
 html 등 스크립트 코드 -> 클라이언트 스크립트
-- sdfsdf
+]\n# **강의 제목**\n- 강의 주제 및 코스 코드\n\n## **강의 개요**\n- 강의의 전체적인 소개와 목표\n\n## **강의 목표**\n- 학습자가 강의를 통해 달성할 주요 목표\n\n
 
 * [javascript DOM & BOM](#javascript-DOM-&-BOM)
 
