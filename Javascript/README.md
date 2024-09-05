@@ -1,9 +1,7 @@
 jsp, asp, php, .. -> 서버 스크립트
 <br>
 html 등 스크립트 코드 -> 클라이언트 스크립트
-- sadf
-- sadf
-- sdfdfff
+- sdfsdf
 
 * [javascript DOM & BOM](#javascript-DOM-&-BOM)
 
